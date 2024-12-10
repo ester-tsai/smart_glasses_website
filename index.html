@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	Prologue by HTML5 UP
@@ -64,11 +65,7 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/ester-tsai/smart_glasses" class="icon fa-github"><span class="label">Github</span></a></li>
 						</ul>
 
 				</div>
@@ -85,7 +82,7 @@
 								<iframe width="560" height="315" src="https://www.youtube.com/embed/_AlcRoqS65E" frameborder="0" allowfullscreen></iframe>
 
 								<h2 class="alt">Smart Glasses</h2>
-								<p>A clip-on device that the user can attach to any pair of glasses :)</p>
+								<p>A clip-on smart device with transparent display that the user can attach to any pair of glasses :)</p>
 								<p>Smart glasses controlled by voice commands with features like time display, live translation, and navigation — seamlessly blending digital information with your surroundings.</p>
 
 
@@ -106,8 +103,7 @@
 
 							<p align="left">
 								<ul>
-									<li> Smart glasses are wearable computers that integrate digital data with the physical world, allowing users to access information hands-free.</li>
-									<li> It's a type of Augmented Reality device that overlays information onto your real-world view, ideal for tech enthusiasts, professionals, and active lifestyle users.</li>
+									<li> Smart glasses are wearable computers that integrate digital data with the physical world through augmented reality, allowing users to access information hands-free. You can perform tasks like checking time, viewing live translation, or getting navigation instructions while staying engaged with your environment.</li>
 								</ul>
 							</p>
 
@@ -136,7 +132,7 @@
             </tr>
             <tr style="border: 1px solid black;">
                 <td style="border: 1px solid black; padding: 8px;">Give direction</td>
-                <td style="border: 1px solid black; padding: 8px;">Access turn-by-turn navigation from Google Maps, projected onto glasses while walking or driving.</td>
+                <td style="border: 1px solid black; padding: 8px;">Access turn-by-turn navigation from Apple Maps, projected onto glasses while walking or driving.</td>
             </tr>
             <tr style="border: 1px solid black;">
                 <td style="border: 1px solid black; padding: 8px;">Live translation / transcription</td>
@@ -150,39 +146,42 @@
 
 
 
-							<h3 align="left">Technical Components</h3>
-								<table>
-								  <tr>
-								    <th><b>Component</b></th>
-								    <th><b>Descreption</b></th>
-								  </tr>
-								  <tr>
-								    <td>Microcontroller</td>
-								    <td>Raspberry Pi Zero 2W</td>
-								  </tr>
-								<tr>
-								    <td>Microphone</td>
-								    <td>Adafruit I2S MEMS Microphone Breakout</td>
-								  </tr>
-								<tr>
-								    <td>OLED Screen</td>
-								    <td>0.96 Inch OLED Module 12864 128x64</td>
-								  </tr>
-								<tr>
-								    <td>Charger</td>
-								    <td>PowerBoost 500 Charger</td>
-								  </tr>
-								<tr>
-								    <td>Battery</td>
-								    <td>Li-Po Battery 3.7v 1200mAh</td>
-								  </tr>
-								</table>
+<h3 align="left">Technical Components</h3>
+<img src="./images/components.JPG" style="width: 100%; height: auto;" alt="components">
+<table style="border-collapse: collapse; width: 100%;">
+  <tr style="border: 1px solid black;">
+    <th style="border: 1px solid black; padding: 8px;"><b>Component</b></th>
+    <th style="border: 1px solid black; padding: 8px;"><b>Description</b></th>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black; padding: 8px;">Microcontroller</td>
+    <td style="border: 1px solid black; padding: 8px;">Raspberry Pi Zero 2W</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black; padding: 8px;">Microphone</td>
+    <td style="border: 1px solid black; padding: 8px;">Adafruit I2S MEMS Microphone Breakout</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black; padding: 8px;">OLED Screen</td>
+    <td style="border: 1px solid black; padding: 8px;">0.96 Inch OLED Module 12864 128x64</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black; padding: 8px;">Charger</td>
+    <td style="border: 1px solid black; padding: 8px;">PowerBoost 500 Charger</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black; padding: 8px;">Battery</td>
+    <td style="border: 1px solid black; padding: 8px;">Li-Po Battery 3.7v 1200mAh</td>
+  </tr>
+</table>
+	    
 								
 	<h3 align="left">Prototype</h3>
-		<img src="./Images/structure.png" style="width: 100%; height: auto;" alt="Structure">
+		<img src="./images/structure.png" style="width: 100%; height: auto;" alt="flow diagram">
+	    	<img src="./images/prototype.JPEG" style="width: 100%; height: auto;" alt="prototype">
 
 	
-		<p align="left">Blah blah blah</p>
+		<p align="left">Our prototype is a working computer that receives input from the microphone, transcribes the audio, and displays information like direction, translation, or AI response based on which button we click on the mobile app.</p>
 
 
 
@@ -190,140 +189,144 @@
 </section>
 
 
-					<section id="results" class="two">
-						<div class="container">
+<section id="results" class="two">
+	<div class="container">
 
-							<header>
-								<h2>Results</h2>
-							</header>
+		<header>
+			<h2>Results</h2>
+		</header>
 
-							<p align="left">Remember to use figures to help illustrate results</p>
-
-
-							<article class="item">
-								<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-								<header>
-									<h3>Caption</h3>
-								</header>
-							</article>
+		<p align="left">Remember to use figures to help illustrate results</p>
 
 
-						</div>
-					</section>
+		<article class="item">
+			<a href="#" class="image fit"><img src="./images/result 1.JPEG" alt="result 1" /></a>
+			<header>
+				<h3>Caption</h3>
+			</header>
 
-					<section id="references" class="three">
-						<div class="container">
-
-							<header>
-								<h2>References</h2>
-							</header>
-
-							<p align="left">Blah blah blah</p>
-
-						</div>
-					</section>
+			<img src="./images/result 2.JPEG" style="width: 100%; height: auto;" alt="result 2">
+		</article>
 
 
-				<!-- About Me -->
-					<section id="team" class="two">
-						<div class="container">
+	</div>
+</section>
 
-							<header>
-								<h2>Our Team</h2>
-							</header>
+<section id="references" class="three">
+	<div class="container">
 
-							<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+		<header>
+			<h2>References</h2>
+		</header>
 
-
-							<div class="row">
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Ritwik Goel (rg3546)</h3>
-											<p>Computer Engineering'24</p>
-										</header>
-									</article>
-								</div>
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Ester Tsai (eyt2112)</h3>
-											<p>Data Science'25</p>
-										</header>
-									</article>
-								</div>
-								<div class="4u$ 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Zhiyi Zhang (zz3274)</h3>
-											<p>Data Science'25</p>
-										</header>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p align="left">
-								<strong>Ritwik Goel: </strong>rg3546@columbia.edu</br>
-								<strong>Ester Tsai: </strong>eyt2112@columbia.edu</br>
-								<strong>Zhiyi Zhang: </strong>zz3274@columbia.edu</br>
-							</br>
-								<strong>Columbia University </strong><a href="http://www.ee.columbia.edu">Department of Electrical Engineering</a><br>
-								<!-- <strong>Class Website:</strong>
-									<a href="https://edblogs.columbia.edu/eecs4764-001-2019-3/">Columbia University EECS E4764 Fall '22 IoT</a></br> -->
-								<strong>Instructor:</strong> <a href="http://fredjiang.com/">Professsor Xiaofan (Fred) Jiang</a>
-							</p>
+		<p align="left">Components: <a href="https://www.instructables.com/Smart-Glasses-V2/" target="_blank">How to Make Smart Glasses!</a></p>
+		<p align="left">3D print design: <a href="https://www.youtube.com/watch?v=IpJqzwXWg-k&t=29s" target="_blank">How To Make Smart Glasses DIY at Home</a></p>
 
 
-							<!-- <form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form> -->
+	</div>
+</section>
 
-						</div>
-					</section>
 
+<!-- About Me -->
+<section id="team" class="two">
+	<div class="container">
+
+		<header>
+			<h2>Our Team</h2>
+		</header>
+
+		<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+
+
+		<div class="row">
+			<div class="4u 12u$(mobile)">
+				<article class="item">
+					<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+					<header>
+						<h3>Ritwik Goel (rg3546)</h3>
+						<p>Computer Engineering '24</p>
+					</header>
+				</article>
 			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; IoT Project | All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
+			<div class="4u 12u$(mobile)">
+				<article class="item">
+					<a href="https://ester-tsai.github.io/" class="image fit"><img src="images/Ester.JPEG" alt="" /></a>
+					<header>
+						<h3>Ester Tsai (eyt2112)</h3>
+						<p>Data Science '25</p>
+					</header>
+				</article>
 			</div>
+			<div class="4u$ 12u$(mobile)">
+				<article class="item">
+					<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+					<header>
+						<h3>Zhiyi Zhang (zz3274)</h3>
+						<p>Data Science '25</p>
+					</header>
+				</article>
+			</div>
+		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+	</div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="four">
+	<div class="container">
+
+		<header>
+			<h2>Contact</h2>
+		</header>
+
+		<p align="left">
+			<strong>Ritwik Goel: </strong>rg3546@columbia.edu</br>
+			<strong>Ester Tsai: </strong>eyt2112@columbia.edu</br>
+			<strong>Zhiyi Zhang: </strong>zz3274@columbia.edu</br>
+		</br>
+			<strong>Columbia University </strong><a href="http://www.ee.columbia.edu">Department of Electrical Engineering</a><br>
+			<!-- <strong>Class Website:</strong>
+				<a href="https://edblogs.columbia.edu/eecs4764-001-2019-3/">Columbia University EECS E4764 Fall '22 IoT</a></br> -->
+			<strong>Instructor:</strong> <a href="http://fredjiang.com/">Professsor Xiaofan (Fred) Jiang</a>
+		</p>
+
+
+		<!-- <form method="post" action="#">
+			<div class="row">
+				<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+				<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+				<div class="12u$">
+					<textarea name="message" placeholder="Message"></textarea>
+				</div>
+				<div class="12u$">
+					<input type="submit" value="Send Message" />
+				</div>
+			</div>
+		</form> -->
+
+	</div>
+</section>
+
+	</div>
+
+<!-- Footer -->
+	<div id="footer">
+
+		<!-- Copyright -->
+			<ul class="copyright">
+				<li>&copy; IoT Project | All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+
+	</div>
+
+<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollzer.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
